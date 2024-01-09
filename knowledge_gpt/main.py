@@ -34,7 +34,7 @@ bootstrap_caching()
 
 sidebar()
 
-openai_api_key = st.session_state.get("OPENAI_API_KEY")
+openai_api_key = 'st.secrets['openai_key']'
 
 
 if not openai_api_key:
